@@ -1,0 +1,13 @@
+prefix=D:/Data_science/Day1/venev/Library
+exec_prefix=D:/Data_science/Day1/venev/Library
+libdir=D:/Data_science/Day1/venev/Library/lib
+sharedlibdir=D:/Data_science/Day1/venev/Library/lib
+includedir=D:/Data_science/Day1/venev/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
